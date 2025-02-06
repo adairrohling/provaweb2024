@@ -1,3 +1,5 @@
+export const revalidate = 0; // Garante que os dados sejam sempre buscados novamente
+
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { sql } from "@vercel/postgres";
 
